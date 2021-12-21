@@ -14,7 +14,7 @@ posnum=$RANDOM
 
 68719476736 divisible dy 16
 
-Collatz part of the solution ! This is not a proof !
+Collatz part of the solution ! This is not a proof ! But explanations !
   	
 There are no number to go infinite because when you fell on 1024 multiple
 you go directly to 1 (1024/2=512/2=256/2=128/2=64/2=32/2=16/2=8/2=4/2=2/2=1).
@@ -50,6 +50,8 @@ Exemple 3: Prime number 7919, going to an 1024 multiple.
 
 ![Screenshot](7919.jpg)
 
+
+2021-12-20 and 21 dec
 
 --------------------------------------------------------------------
 

@@ -39,12 +39,15 @@ There are NO solution at Collatz.
 And no proof either...
  
 Exemple 1: 16.
+
 ![Screenshot](16.jpg)
   	
-Exemple 2: 68719476736 * 2 = 137438953472 (multiple of 2,4 ,8, 16...).
+Exemple 2: 68719476736 * 2 = 137438953472 (multiple of 2,4 ,8, 16...etc).
+
 ![Screenshot](1024.jpg)
   	
 Exemple 3: Prime number 7919, going to an 1024 multiple.
+
 ![Screenshot](7919.jpg)
 
 

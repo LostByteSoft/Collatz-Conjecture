@@ -1,11 +1,14 @@
 #!/bin/bash
 start=$SECONDS
+printf '\033[8;50;75t'		# will resize the window
 echo --- Start of bash ---
 echo "LostbyteSoft"
 echo "Version 2021-12-22"
 echo
+echo "Version 2021-12-23"
+echo "Write data in file stats.txt"
+echo
 
-printf '\033[8;50;75t'		# will resize the window
 
 ##Parts of code came from here.
 ##https://deepbsd.github.io/bash/2018/08/11/The_Collatz_Conjecture.html
@@ -39,6 +42,7 @@ sleep 0.25
   	counter=0   # counter
   	while [[ ${posnum} -ne 1 ]]; do
   	echo Number is : $posnum Counter is : $counter
+  	echo $posnum >> stats.txt
   	[ $((posnum % 2)) -eq 0 ] && ((posnum=posnum/2)) || ((posnum=1+posnum*3))
   	((counter+=1))
   	done

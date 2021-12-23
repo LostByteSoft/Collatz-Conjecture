@@ -30,6 +30,18 @@ There are NO solution at Collatz.
 
 And no proof either...
 
+What need to do now ?
+
+Analyse the last digit after a calculation to determine there are more chance to get an even number.
+
+	File "Stats.txt" and "chance to get even or odd.ods" in same directory !
+	
+	You need copy data from stats.txt to ods file.
+
+64 % more chances to get an avec number.
+	
+![Screenshot](number27stats.jpg)
+
 --------------------------------------------------------------------
 
 Some numbers worth trying:

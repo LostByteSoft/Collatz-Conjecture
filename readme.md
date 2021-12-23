@@ -4,16 +4,6 @@ https://deepbsd.github.io/bash/2018/08/11/The_Collatz_Conjecture.html
 
 --------------------------------------------------------------------
 
-Remove the # in front of this to get a random number.
-
-posnum=$RANDOM
-  	
-27 special number
-
-9663 special number
-
-68719476736 divisible dy 16
-
 Collatz part of the solution ! This is not a proof ! But explanations !
   	
 There are no number to go infinite because when you fell on 1024 multiple
@@ -42,26 +32,39 @@ And no proof either...
 
 --------------------------------------------------------------------
 
+Some numbers worth trying:
+
+27, 9663, 1111111111111111, (17 numbers maximum)
+
+--------------------------------------------------------------------
+
 Files and what they do ?
 
 -calculate pi.sh
+
 	Calculate the number of decimal you specified (of pi)
 
 -calculate prime number.sh
+
+	Big numbers return an error.
 	Calculate prime number between 2 numbers
 	(Between 11 and 20 they are: 13, 17, 19)
 
 -chance to get even or odd.ods
+
 	Incomplete statistic
 
 -Collatz Conjecture.sh
+
 	17 numbers maximum.
 	You specify a number and there you go.
 
 -find multiples of a number.sh
+
 	You gave a number and you get multiples of this number, you always going to 1 with theses numbers.
 
 -IS a prime numbers.sh
+
 	Determine if 7919 is a prime number ? Yes it is.
 	Prime numbers give interesting results -> image 1111111111111111
 	
@@ -75,6 +78,8 @@ Exemple 1: 16.
   	
 Exemple 2: 68719476736 * 2 = 137438953472 (multiple of 2,4 ,8, 16...etc).
 
+68719476736 divisible dy 16
+
 ![Screenshot](1024.jpg)
   	
 Exemple 3: Prime number 7919, going to an 1024 multiple.
@@ -87,6 +92,8 @@ Find multiples of a number.
 
 2021-12-20 and 21 dec
 2021-12-22 Update
+
+Very good video on the subject: https://www.youtube.com/watch?v=094y1Z2wpJg
 
 --------------------------------------------------------------------
 

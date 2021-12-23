@@ -1,5 +1,9 @@
 #!/bin/bash
 start=$SECONDS
+echo --- Start of bash ---
+echo "LostbyteSoft"
+echo "Version 2021-12-22"
+echo
 
 printf '\033[8;50;75t'		# will resize the window
 
@@ -7,8 +11,15 @@ printf '\033[8;50;75t'		# will resize the window
 ##https://deepbsd.github.io/bash/2018/08/11/The_Collatz_Conjecture.html
 
   	#echo 68719476736 is a multiple of 2 4 8 16... 1024 ... 8192... etc
-  	# bash doesn't like BIG numbers. 
-  	posnum=68719476736
+  	# bash doesn't like BIG numbers. 17 numbers maximum.
+  	#posnum=4294967296
+  	
+echo " 17 numbers maximum. "
+echo "Enter a number to calculate the Collatz Conjecture ? (Numbers only)"
+read posnum
+
+echo --- Calculations started ---
+sleep 0.25
 
   	#posnum=$RANDOM
   	
@@ -27,13 +38,13 @@ printf '\033[8;50;75t'		# will resize the window
   	
   	counter=0   # counter
   	while [[ ${posnum} -ne 1 ]]; do
-  	echo Num is : $posnum
+  	echo Number is : $posnum Counter is : $counter
   	[ $((posnum % 2)) -eq 0 ] && ((posnum=posnum/2)) || ((posnum=1+posnum*3))
   	((counter+=1))
   	done
   	
-  	echo Num is : 1
-  	echo The count is : $counter
+  	echo Number is : 1 Counter is : $counter
+echo --- Calculations done ---
 	echo Finish... This script take $(( SECONDS - start )) seconds to complete.
 	date -d@$(( SECONDS - start )) -u +%H:%M:%S
 	echo Press ENTER key to exit !

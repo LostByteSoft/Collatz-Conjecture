@@ -8,7 +8,7 @@ Remove the # in front of this to get a random number.
 
 posnum=$RANDOM
   	
-27 specail number
+27 special number
 
 9663 special number
 
@@ -30,13 +30,44 @@ you divide by 2 and going to a loop where you get a divisible by 16 to go to 1.
 Each time you *3+1 you have 9 % chance this number is a multiple 2-4-8-16...
 16384-32768 ... etc and going to a loop where you get a divisible by 16 to go to 1.
 
-Even very large prime numbers will end up with a multipole of 16 eventually.
+Even very large prime numbers will end up with a multiple of 16 eventually.
+
+The chances to get an even number are greater than an odd.
 	
 You have more chance to win in a casino ...
 
 There are NO solution at Collatz.
 
 And no proof either...
+
+--------------------------------------------------------------------
+
+Files and what they do ?
+
+-calculate pi.sh
+	Calculate the number of decimal you specified (of pi)
+
+-calculate prime number.sh
+	Calculate prime number between 2 numbers
+	(Between 11 and 20 they are: 13, 17, 19)
+
+-chance to get even or odd.ods
+	Incomplete statistic
+
+-Collatz Conjecture.sh
+	17 numbers maximum.
+	You specify a number and there you go.
+
+-find multiples of a number.sh
+	You gave a number and you get multiples of this number, you always going to 1 with theses numbers.
+
+-IS a prime numbers.sh
+	Determine if 7919 is a prime number ? Yes it is.
+	Prime numbers give interesting results -> image 1111111111111111
+	
+![Screenshot](1111111111111111.jpg)
+
+--------------------------------------------------------------------
  
 Exemple 1: 16.
 
@@ -50,8 +81,12 @@ Exemple 3: Prime number 7919, going to an 1024 multiple.
 
 ![Screenshot](7919.jpg)
 
+Find multiples of a number.
+
+![Screenshot](mult.jpg)
 
 2021-12-20 and 21 dec
+2021-12-22 Update
 
 --------------------------------------------------------------------
 
@@ -68,3 +103,4 @@ Exemple 3: Prime number 7919, going to an 1024 multiple.
 	LostByteSoft no copyright or copyleft we are in the center.
 	
 --------------------------------------------------------------------
+
